@@ -18,6 +18,12 @@ namespace ObservatorioBodega
    url: "Documentos/{action}/{id}",
    defaults: new { controller = "Documentos", action = "Index", id = UrlParameter.Optional }
 );
+            //RUTA PARA COLABORADORES
+            routes.MapRoute(
+            name: "Colaboradores",
+            url: "Colaboradores/{action}/{id}",
+            defaults: new { controller = "Colaboradores", action = "Index", id = UrlParameter.Optional }
+);
         }
     }
 }
