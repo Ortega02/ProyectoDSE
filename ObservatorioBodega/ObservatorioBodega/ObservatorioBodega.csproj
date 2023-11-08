@@ -178,12 +178,14 @@
     <Compile Include="Controllers\ColaboradoresController.cs" />
     <Compile Include="Controllers\DocumentosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Administrador.cs" />
     <Compile Include="Models\Colaborador.cs" />
     <Compile Include="Models\Documento.cs" />
+    <Compile Include="Models\Logeo.cs" />
     <Compile Include="Models\UsuarioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -232,6 +234,7 @@
     <Content Include="Views\Colaboradores\formAddCollaborators.cshtml" />
     <Content Include="Views\Colaboradores\formEditCollaborators.cshtml" />
     <Content Include="Views\Colaboradores\index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
